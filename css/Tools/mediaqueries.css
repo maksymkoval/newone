@@ -1,0 +1,32 @@
+@media print {
+  body {
+    margin: 0;
+    color: #000;
+    background-color: #fff; } }
+
+@media (max-width: 1150px) {
+  .artists .artists_context .artists_context_four-artists {
+    grid-template-columns: 1fr 1fr !important; }
+    .artists .artists_context .artists_context_four-artists .artist_context_four-artists_individual-artist {
+      margin: auto; }
+  .featured .featured_context_features {
+    grid-template-columns: 1fr !important;
+    grid-gap: 20px; }
+  .aboutus .aboutus_context {
+    grid-template-columns: 1fr !important; }
+    .aboutus .aboutus_context .aboutus_context_info {
+      display: block;
+      margin: auto; }
+    .aboutus .aboutus_context .aboutus_context_img {
+      display: none; }
+  .form .form_context_location {
+    grid-template-columns: 1fr !important; }
+    .form .form_context_location .form_context_input_google-maps img {
+      display: block;
+      margin: auto; }
+  footer .small br {
+    display: block !important; }
+  footer .small .social-media {
+    display: none; } }
+
+/*# sourceMappingURL=mediaqueries.css.map */
